@@ -24,4 +24,4 @@ jobs:
       - name: Run pisstestdb.js
         env:
           DB_PASSWORD: ${{ secrets.DB_PASSWORD }}
-        run: node pulseapp/oz/scripts/pisstestdb.js
+        run: node scripts/pisstestdb.js
