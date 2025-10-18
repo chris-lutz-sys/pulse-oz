@@ -37,7 +37,7 @@ const client = new Client({
         `INSERT INTO customers (customer_name) VALUES ($1) RETURNING customer_id`,
         ['fridaybob']
       ),
-      5000,
+      9000,
       'DB insert'
     );
 
