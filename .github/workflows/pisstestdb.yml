@@ -1,8 +1,8 @@
-name: Run pisstest every hour
+name: Run 8am 8pm pisstest
 
 on:
   schedule:
-    - cron: '0 * * * *' # ← runs every hour on the hour
+    - cron: '0 8,20 * * *' # ← runs every hour on the hour
   workflow_dispatch:     # ← allows manual trigger from GitHub UI
 
 jobs:
